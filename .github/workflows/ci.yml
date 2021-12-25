@@ -1,0 +1,14 @@
+name: Build
+on: [push]
+
+jobs:
+  build:
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up nodejs
+        uses: actions/setup-node@v1
+        with:
+      - name: Install dependencies
+        run: make install
+      - name: Style check
+        run: make lint
