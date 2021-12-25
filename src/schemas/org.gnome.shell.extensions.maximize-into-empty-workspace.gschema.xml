@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    
+  <schema id="org.gnome.shell.extensions.maximize-into-empty-workspace"
+    path="/org/gnome/shell/extensions/maximize-into-empty-workspace/">
+
+    <key type="as" name="move-up-short-cut">
+      <default><![CDATA[['<Control><Alt>Page_Up']]]></default>
+      <summary>Move up the windows stack</summary>
+      <description>
+	      Lets you navigate up through the stack of windows you've created.
+      </description>
+    </key>
+
+    <key type="as" name="move-down-short-cut">
+      <default><![CDATA[['<Control><Alt>Page_Down']]]></default>
+      <summary>Move down the windows stack</summary>
+      <description>
+	      Lets you navigate down through the first stack of windows you've created.
+      </description>
+    </key>
+  </schema>
+  
+</schemalist>

@@ -1,0 +1,12 @@
+
+{
+    "name": "Maximized into empty workspace",
+    "version": 1,
+    "description": "Start a new window maximized in the first empty workspace",
+    "url": "https://github.com/mrf345/gnome-shell-extension-maximize-into-empty-workspace",
+    "uuid": "maximize-into-empty-workspace@mfeddad.xyz",
+    "settings-schema": "org.gnome.shell.extensions.maximize-into-empty-workspace",
+    "shell-version": [
+      "3.36"
+    ]
+}
