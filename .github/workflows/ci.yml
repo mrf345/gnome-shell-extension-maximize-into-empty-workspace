@@ -1,0 +1,14 @@
+name: Build
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up nodejs
+        uses: actions/setup-node@v1
+      - name: Install dependencies
+        run: make install
+      - name: Style check
+        run: make lint
