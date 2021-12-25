@@ -84,7 +84,8 @@ function enable () {
         metaWindow.get_workspace().activate(global.get_current_time())
       }
 
-      if (!Window.isMaximized(metaWindow)) metaWindow.maximize(Meta.MaximizeFlags.BOTH)
+      metaWindow.unmaximize(Meta.MaximizeFlags.BOTH)
+      metaWindow.maximize(Meta.MaximizeFlags.BOTH)
     }
   })
 }
