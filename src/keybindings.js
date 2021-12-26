@@ -1,7 +1,8 @@
 const { main: Main } = imports.ui
 const { Shell, Meta } = imports.gi
-const Me = imports.misc.extensionUtils.getCurrentExtension()
-const { getSettings, Window } = Me.imports.utils
+const { getSettings, getCurrentExtension } = imports.misc.extensionUtils
+const Me = getCurrentExtension()
+const { Window } = Me.imports.utils
 
 // eslint-disable-next-line no-unused-vars
 const Keybindings = {
