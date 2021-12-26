@@ -18,4 +18,4 @@ build: format
 	glib-compile-schemas src/schemas/
 	rm -rf dist
 	mkdir dist
-	zip -j9 dist/gnome-shell-extension-maximize-into-empty-workspace.zip src/*
+	(cd src; zip -r ../dist/gnome-shell-extension-maximize-into-empty-workspace.zip .)
